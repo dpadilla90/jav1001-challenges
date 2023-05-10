@@ -3,6 +3,7 @@ package challenges.testers
 import challenges.gotAnyChange
 
 object GotAnyChangeTester {
+	//TESTING 
 	private val t1 = listOf(22,7,1,1,2,3,5)
 	private val r1 = 20
 	private val t2 = listOf<Int>()
