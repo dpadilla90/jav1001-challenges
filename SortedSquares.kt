@@ -9,6 +9,8 @@ package challenges
  * Sample Output: [4, 9, 25, 49, 81]
  */
 
-fun sortedSquares(list: List<Int>): List<Int> {
-	return mutableListOf()
+ fun sortedSquares(nums: List<Int>): List<Int> {
+    val numberList = nums
+    val squareList = numberList.map { it * it }
+    return squareList.sorted()
 }
