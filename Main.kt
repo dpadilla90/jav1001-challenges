@@ -1,6 +1,7 @@
-package challenges
+//package challenges
 
 import challenges.testers.*
+
 
 fun main() {
 	SortedSquaresTester.run()
@@ -9,4 +10,5 @@ fun main() {
 	//GotAnyChangeTester.run()
 	//MinWaitTimeTester.run()
 	//runLengthEncodingTester.run()
+
 }
