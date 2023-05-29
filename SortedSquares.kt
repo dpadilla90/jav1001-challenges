@@ -13,4 +13,21 @@ package challenges
     val numberList = nums
     val squareList = numberList.map { it * it }
     return squareList.sorted()
+
+//Other Solution done with the prof
+
+/* 
+for sortedSquares(list: List<Int>): List<Int>{
+    val result = mutableListOf<Int>()
+
+    for(input in list){
+        if (input < 0) {
+
+        }else{
+            result.add(input*input)
+        }
+        
+    }
+}
+*/
 }
